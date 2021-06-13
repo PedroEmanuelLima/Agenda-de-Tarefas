@@ -6,8 +6,9 @@ Para executar a API é necessário o Java 11, Gradle 7.0, e uma IDEA (recomendad
 
 - Faça download do projeto: ``
 - Abra em sua IDEA a pasta api do projeto
-- Após a conclusão do build (Manualmente execute em `./api`  o comando `gradle run`)
-- Para testar a aplicação execute a classe _AgendaTarefasApplication_ no caminho `./api/src/main/java/com/agenda/Agenda_Tarefas`
+- Configure o arquivo `application.properties` co caminho `.\API\src\main\resources` com informações de seu banco de dados
+- Após a conclusão do build (Manualmente execute em `.\API`  o comando `gradle run`)
+- Para testar a aplicação execute a classe _AgendaTarefasApplication_ no caminho `.\API\src\main\java\com\agenda\Agenda_Tarefas`
 - Com o servidor executando agota é só testar com algum software de teste (Recomendado o POSTMAN)
 
 ## Divisão do projeto
