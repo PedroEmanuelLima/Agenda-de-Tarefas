@@ -4,7 +4,7 @@
 
 Para executar a API é necessário o Java 11, Gradle 7.0, e uma IDEA (recomendada IntelliJ  IDEA), software de teste de API e ter instalado o PostgreSQL.
 
-- Faça download do projeto: ``
+- Faça download do projeto: `git clone https://github.com/PedroEmanuelLima/Agenda-de-Tarefas.git`
 - Abra em sua IDEA a pasta api do projeto
 - Configure o arquivo `application.properties` co caminho `.\API\src\main\resources` com informações de seu banco de dados
 - Após a conclusão do build (Manualmente execute em `.\API`  o comando `gradle run`)
