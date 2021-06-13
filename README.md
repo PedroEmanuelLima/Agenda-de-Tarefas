@@ -18,11 +18,11 @@ Para executar a API é necessário o Java 11, Gradle 7.0, e uma IDEA (recomendad
 
     ```json
     {
-        title: title,
-        description: description,
-        remenber: remenber,
-        completed: completed,
-        owner: owner
+        "title": "title",
+        "description": "description",
+        "remenber": "remenber",
+        "completed": "completed",
+        "owner": "owner"
     }
     ```
 
@@ -30,14 +30,14 @@ Para executar a API é necessário o Java 11, Gradle 7.0, e uma IDEA (recomendad
 
   - Recebe um objeto no corpo no formato
 
-    ```
+    ```json
     {
-        id: id;
-        email: email,
-        name: name,
-        token: token,
-        tasks: tasks,
-        type: type
+        "id": "id";
+        "email": "email",
+        "name": "name",
+        "token": "token",
+        "tasks": "tasks",
+        "type": "type"
     }
     ```
 
@@ -45,10 +45,10 @@ Para executar a API é necessário o Java 11, Gradle 7.0, e uma IDEA (recomendad
 
   - Recebe um objeto no corpo no formato
 
-    ```
+    ```json
     {
-        email: email,
-        password: senha
+        "email": "email",
+        "password": "senha"
     }
     ```
 
@@ -56,13 +56,13 @@ Para executar a API é necessário o Java 11, Gradle 7.0, e uma IDEA (recomendad
 
   - Recebe um objeto no corpo no formato
 
-    ```
+    ```json
     {
-        title: title,
-        description: description,
-        remenber: remenber,
-        completed: completed,
-        owner: owner
+        "title": "title",
+        "description": "description",
+        "remenber": "remenber",
+        "completed": "completed",
+        "owner": "owner"
     }
     ```
 
@@ -72,11 +72,11 @@ Para executar a API é necessário o Java 11, Gradle 7.0, e uma IDEA (recomendad
 
     - id na url
 
-    ```
+    ```json
     {
-        title: title,
-        description: description,
-        remenber: remenber
+        "title": "title",
+        "description": "description",
+        "remenber": "remenber"
     }
     ```
 
