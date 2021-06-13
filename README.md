@@ -32,7 +32,7 @@ Para executar a API é necessário o Java 11, Gradle 7.0, e uma IDEA (recomendad
 
     ```json
     {
-        "id": "id";
+        "id": "id",
         "email": "email",
         "name": "name",
         "token": "token",
