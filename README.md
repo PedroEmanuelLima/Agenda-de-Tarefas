@@ -98,7 +98,6 @@ Para executar a API é necessário o Java 11, Gradle 7.0, e uma IDEA (recomendad
 
 - Após ter ter o projeto na maquina na pasta `frontend` execute os comandos:
 > npm install
-<br />
 > npm start
 
 ## Aplicação divida em 5 telas:
